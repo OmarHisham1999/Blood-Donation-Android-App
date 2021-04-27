@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Hospitalsignup"
+    android:background="@drawable/bdbg">
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="127dp"
+        android:layout_marginLeft="127dp"
+        android:layout_marginTop="61dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/bdlogo" />
+
+    <EditText
+        android:id="@+id/signupemail"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_centerHorizontal="true"
+        android:hint="E-mail"
+        android:layout_marginTop="250dp"
+        android:drawableLeft="@drawable/ic_action_mail"
+        />
+    <EditText
+        android:id="@+id/signuppassword"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_centerHorizontal="true"
+        android:hint="Password"
+        android:layout_marginTop="350dp"
+        android:drawableLeft="@drawable/ic_action_password"
+        />
+    <EditText
+        android:id="@+id/signupregistrationnumber"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_centerHorizontal="true"
+        android:hint="Registration Number"
+        android:layout_marginTop="450dp"
+        android:drawableLeft="@drawable/ic_action_id"
+        />
+
+    <EditText
+        android:id="@+id/signuplocation"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_centerHorizontal="true"
+        android:hint="Location"
+        android:layout_marginTop="550dp"
+        android:drawableLeft="@drawable/ic_action_location"
+        />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="55dp"
+        app:cardBackgroundColor="#E44A4A"
+        app:cardCornerRadius="20dp"
+        android:onClick="openhospitalsignin">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp">
+
+            <TextView
+                android:id="@+id/logintxthospitalsignup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/signuptxt"
+                android:textColor="#F8F2F2"
+                android:textSize="24sp"
+                android:onClick="openhospitalsignin"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="0dp"
+        app:cardBackgroundColor="#E44A4A"
+        app:cardCornerRadius="20dp"
+        android:onClick="getlocation">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Get Location"
+                android:textColor="#F8F2F2"
+                android:textSize="24sp"
+                />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</RelativeLayout>

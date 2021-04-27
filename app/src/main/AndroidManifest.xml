@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.blooddonation">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bdlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".updatepostactivity"></activity>
+        <activity android:name=".addpostactivity" />
+        <activity android:name=".HospitalHome" />
+        <activity android:name=".UserHome" />
+        <activity android:name=".Hospitalsignin" />
+        <activity
+            android:name=".User"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Hospital"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Usersignup" />
+        <activity android:name=".Hospitalsignup" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Choose">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

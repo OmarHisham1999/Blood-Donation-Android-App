@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">Blood Donation</string>
+    <string name="loginbtnsignin">Login</string>
+    <string name="registertxtsignin">Register here</string>
+    <string name="choose">Choose to sign up</string>
+    <string name="usernametxtusersignup">Name</string>
+    <string name="passwordtxtusersignup">Password</string>
+    <string name="emailtxtusersignup">E-mail</string>
+    <string name="phnetxtusersignup">Phone</string>
+    <string name="bloodgrouptxtusersignup">Blood Group</string>
+    <string name="citytxtusersignup">City</string>
+    <string name="areatxtusersignup">Area</string>
+    <string name="registerbtntxtsignup">Register</string>
+    <string name="signuptxt">Sign Up</string>
+    <string name="hospitaltxtnavigation">Hospital</string>
+    <string name="title_activity_hospitalmenue">Hospitalmenue</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="bloodtype">Blood Type</string>
+    <string name="casestatus">Status</string>
+    <string name="numberofdonors">Number of donors</string>
+    <string name="addposttxtbtnaddpost">Add Post</string>
+    <string name="usertxtnavigation">User</string>
+    <string name="descripriontxtaddpost">Description</string>
+    <string name="hospitalnametxtcard">Hospital Name</string>
+    <string name="addpostuniqe">Patient Name</string>
+    <string-array name="bloodtype">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+    <string-array name="city">
+        <item>Cairo</item>
+        <item>Alexandria</item>
+        <item>Sharm ElSheikh</item>
+        <item>Hurgada</item>
+        <item>Port Said</item>
+        <item>Marsa Matrouh</item>
+    </string-array>
+
+    <string-array name="cairoareas">
+        <item>Nasr City</item>
+        <item>Hadayek Elkobba</item>
+        <item>5th Settelment</item>
+        <item>Helioples</item>
+        <item>Zamalek</item>
+        <item>Maadi</item>
+        <item>Dokki</item>
+    </string-array>
+
+    <string-array name="alexareas">
+        <item>Aboqir</item>
+        <item>Miami</item>
+        <item>Mandra</item>
+        <item>Asafra</item>
+    </string-array>
+
+    <string-array name="sharmareas">
+        <item>Khaleeg Neama</item>
+    </string-array>
+
+    <string-array name="matrouhareas">
+        <item>Obayed</item>
+        <item>Agyba</item>
+        <item>Elhamam</item>
+    </string-array>
+
+    <string-array name="portsaidareas">
+        <item>Alganoub</item>
+        <item>Alzhour</item>
+        <item>Alshar1</item>
+        <item>Almanakh</item>
+    </string-array>
+
+    <string-array name="hurgadaareas">
+        <item>El Ahia</item>
+        <item>El Helal</item>
+        <item>El Dahar</item>
+        <item>Sekalla</item>
+    </string-array>
+
+
+    <string-array name="status">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+</resources>
